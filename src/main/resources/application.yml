@@ -1,0 +1,8 @@
+configuration:
+  realm: token-issuer
+  key: issuer.pem
+
+web:
+  security:
+    open-endpoints:
+      - /jwks/keys
