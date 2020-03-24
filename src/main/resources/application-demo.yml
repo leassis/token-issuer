@@ -1,0 +1,10 @@
+configuration:
+  users:
+    -
+      username: default
+      password: $2a$10$c1Hiag9IlcAyR8LYxclRq.rBZHrQ0/U2eIevzt1fGbWKrWg8hMtv. #bcrypt "default"
+      token:
+        expiration: 1H
+        issuer: token-issuer-default
+        scopes:
+          - openid
