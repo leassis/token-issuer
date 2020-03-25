@@ -1,7 +1,7 @@
-package com.jwt.tokenissuer.util
+package com.lassis.jwt.tokenissuer.util
 
 
-import com.jwt.tokenissuer.config.ConfigProperties
+import com.lassis.jwt.tokenissuer.config.ConfigProperties
 import com.nimbusds.jose.JWSAlgorithm
 import com.nimbusds.jose.JWSHeader
 import com.nimbusds.jose.crypto.RSASSASigner

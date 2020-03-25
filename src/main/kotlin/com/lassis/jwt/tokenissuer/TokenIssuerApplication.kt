@@ -1,4 +1,4 @@
-package com.jwt.tokenissuer
+package com.lassis.jwt.tokenissuer
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.context.properties.ConfigurationPropertiesScan

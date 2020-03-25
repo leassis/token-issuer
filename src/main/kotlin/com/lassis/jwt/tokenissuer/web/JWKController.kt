@@ -1,10 +1,10 @@
-package com.jwt.tokenissuer.web
+package com.lassis.jwt.tokenissuer.web
 
-import com.jwt.tokenissuer.config.ConfigProperties
-import com.jwt.tokenissuer.config.Token
-import com.jwt.tokenissuer.constants.SCOPE_CLAIM
-import com.jwt.tokenissuer.pojo.JwtInfo
-import com.jwt.tokenissuer.util.Jwt
+import com.lassis.jwt.tokenissuer.config.ConfigProperties
+import com.lassis.jwt.tokenissuer.config.Token
+import com.lassis.jwt.tokenissuer.constants.SCOPE_CLAIM
+import com.lassis.jwt.tokenissuer.pojo.JwtInfo
+import com.lassis.jwt.tokenissuer.util.Jwt
 import com.nimbusds.jose.util.JSONObjectUtils
 import com.nimbusds.jwt.JWTClaimsSet
 import net.minidev.json.JSONObject

@@ -1,6 +1,6 @@
-package com.jwt.tokenissuer.security.config
+package com.lassis.jwt.tokenissuer.security.config
 
-import com.jwt.tokenissuer.config.WebSecurityProperties
+import com.lassis.jwt.tokenissuer.config.WebSecurityProperties
 import org.springframework.boot.actuate.autoconfigure.security.servlet.EndpointRequest
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
@@ -18,7 +18,7 @@ import org.springframework.security.crypto.password.PasswordEncoder
 internal class WebSecurityConfig(
         private val authenticationEntryPoint: SimpleAuthenticationEntryPoint,
         private val webSecurityProperties: WebSecurityProperties,
-        private val configProperties: com.jwt.tokenissuer.config.ConfigProperties
+        private val configProperties: com.lassis.jwt.tokenissuer.config.ConfigProperties
 ) : WebSecurityConfigurerAdapter() {
 
     private val defaultRole = "ROLE_issuer";

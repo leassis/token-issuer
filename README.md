@@ -4,17 +4,17 @@ This project is part of my kotlin learnings and it's intend to create jwt tokens
 
 
 # Development  
-This is a kotlin project, meaning you MUST need `java virtual machine` I've tested in JAVA 11 but it should work with 8+.
+This is a kotlin project, meaning you MUST need `java virtual machine`. I've tested in JAVA 11
 
 The passwords in the files are bcrypted.
 
 The private key is in pem format.
 
-You can configure several users each will have their on issuer and credentials. The drawback is that everyone will use the same key pair
+You can configure several users each one will have their own issuer and credentials.
 
 The data inside the JWT token is only the basic and mandatory fields, you can extend adding more properties to JwtInfo class
 
-The default credentials it default:default you can change it by changing the application.yml file 
+The default credentials are default:default you can change it by changing the application.yml file 
 
 # Docker
 A docker file is shipped with the code, you just need to build it and start using. Send 2 build args to create the image
